@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header,.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 8px;
+}
+
+.intro {
+    flex-grow: 4;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.intro-left {
+    display: flex;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-right {
+    margin-left: auto;
+    border-color: black;
+    border-width: 4px;
+    font: 18px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    flex-grow: 4;
+}
+
+.testimonials {
+    flex-grow: 4;
+}
+
+.enrollment {
+    flex-grow: 4;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 8px;
+}
